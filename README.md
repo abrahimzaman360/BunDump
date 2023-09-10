@@ -3,5 +3,5 @@
 > I try latest, powerful and speedy web technologies.
 
 ```
-Hello World
+bun run src/index.ts
 ```
