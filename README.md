@@ -1,15 +1,7 @@
-# Elysia with Bun runtime
+# First Project with Bun JS Runtime: 1.0
 
-## Getting Started
-To get started with this template, simply paste this command into your terminal:
-```bash
-bun create elysia ./elysia-example
+> I try latest, powerful and speedy web technologies.
+
 ```
-
-## Development
-To start the development server run:
-```bash
-bun run dev
+Hello World
 ```
-
-Open http://localhost:3000/ with your browser to see the result.
