@@ -1,7 +1,13 @@
 import { Elysia } from "elysia";
 
-const app = new Elysia().get("/", () => "Hello Elysia").listen(3000);
+new Elysia()
+  .get("/", () => "Wall of Love API")
+  .get("/ping", () => ({
+    Human: {
+      name: "Ibrahim",
+      email: "abrahimzaman3@gmail.com",
+    },
+  }))
+  .listen(8080);
 
-console.log(
-  `🦊 Elysia is running at ${app.server?.hostname}:${app.server?.port}`
-);
+console.log("Running Server on http://localhost:8080...");
